@@ -1,0 +1,17 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Repositories\{{ serviceName }}Repository;
+use App\Services\BaseService;
+
+class {{ class }} extends BaseService {
+
+    protected ${{ serviceNameLower }};
+
+    public function __construct({{ serviceName }}Repository ${{ serviceNameLower }}repository)
+    {
+      $this->{{ serviceNameLower }} = ${{ serviceNameLower }}repository;
+    }
+
+}

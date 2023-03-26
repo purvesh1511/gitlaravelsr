@@ -1,0 +1,18 @@
+{
+    "name": "Vhits/Laravelmoduleapi",
+    "description": "module api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vhits\\Laravelmoduleapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "purvesh1511",
+            "email": "purvesh151@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
